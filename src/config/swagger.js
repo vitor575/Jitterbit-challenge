@@ -11,6 +11,12 @@ const options = {
     },
     servers: [
       {
+        url:
+          process.env.RENDER_EXTERNAL_URL ||
+          "https://jitterbit-challenge.onrender.com",
+        description: "Servidor Deployed (Render)",
+      },
+      {
         url: "http://localhost:3000",
         description: "Servidor Local",
       },
