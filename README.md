@@ -72,7 +72,7 @@ A documentação interativa da API está disponível via Swagger. Após iniciar 
 
 A maioria dos endpoints requer autenticação via Bearer Token.
 
-1.  Realize o login via `POST /api/login`.
+1.  Realize o login via `POST /api/login` com as credenciais `admin` e `admin123`.
 2.  Copie o `token` retornado.
 3.  Adicione o token no header das requisições como: `Authorization: Bearer <seu-token>`.
 
@@ -90,3 +90,11 @@ A maioria dos endpoints requer autenticação via Bearer Token.
 ---
 
 Desenvolvido para o desafio Jitterbit.
+
+para facilidade de acesso e review da api tambem criei um deploy :
+https://jitterbit-challenge.onrender.com
+
+para acessar a documentação do swagger basta acessar : 
+https://jitterbit-challenge.onrender.com/api-docs
+
+para fazer login utilize as credenciais : admin e admin123
